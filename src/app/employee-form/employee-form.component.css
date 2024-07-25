@@ -1,0 +1,49 @@
+  .form-container {
+      width: 98%;
+      margin: auto;
+  }
+
+  .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .form-field {
+      flex: 1 1 calc(25% - 10px);
+      margin: 5px;
+  }
+
+  .buttons {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  @media (max-width: 768px) {
+      .form-field {
+          flex: 1 1 100%;
+      }
+  }
+
+  .single-line-textarea {
+      height: 1em;
+      overflow: hidden;
+      resize: none;
+  }
+
+  .mat-card-actions {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 0px 0;
+      margin-bottom: 1px;
+  }
+
+  .tableWidth {
+      margin-top: 10px;
+      width: 100%;
+  }
+
+
+  
+  
+  

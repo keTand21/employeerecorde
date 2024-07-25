@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;   margin: 0;}
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }   */
+
+  .content {
+      padding-top: 64px;
+      /* height of the header */
+      padding-bottom: 64px;
+      /* height of the footer */
+      min-height: calc(100vh - 160px);
+      /* full height minus header and footer */
+  }
+
+  .client-a {
+      --primary-color: blue;
+      --background-color: white;
+  }
+
+  .client-b {
+      --primary-color: green;
+      --background-color: lightgray;
+  }
+
+  .client-c {
+      --primary-color: red;
+      --background-color: beige;
+  }
+
+  .mat-toolbar {
+      background-color: var(--primary-color) !important;
+  }
+
+  body {
+      background-color: var(--background-color);
+  }
